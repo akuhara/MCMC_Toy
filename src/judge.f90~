@@ -1,0 +1,17 @@
+subroutine judge(lppd, lppdp, qrat, t, accept)
+  use mt19937
+  implicit none 
+  real(8), intent(in) :: lppd, lppdp, qrat, t
+  logical, intent(out) :: accept
+  real(8) :: a
+  
+  accept = .false.
+  write(*,*)lppdp, lppd, qrat, t
+  a = (lppdp - lppd + log(qrat)) / t
+
+  if (log(grnd()) < log(a)) then
+     accept = .true.
+  end if
+
+  return 
+end subroutine judge
