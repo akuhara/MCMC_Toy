@@ -9,3 +9,4 @@ Toy models of varioius MCMC methods.
 
 ## Hamiltonian MC
 `bin/hmc_toy`
+
