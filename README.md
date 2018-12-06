@@ -21,3 +21,5 @@ Toy models for varioius MCMC methods (MCMC, PT, and HMC).
 * Can be tweak in `src/params.f90`
 * Need re-compilation after changing parameters
 
+## Output
+* format: x, y, probability (w/o normalization constant)
