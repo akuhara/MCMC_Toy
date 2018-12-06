@@ -13,6 +13,10 @@ Toy models for varioius MCMC methods (MCMC, PT, and HMC).
 * command: `bin/hmc_toy`
 * output: `hmc.out`
 
+## Install
+* Just type `make`
+* Needs `mpig90` that is linked to `gfortran` for PT
+
 ## Tuning parameter
 * Can be tweak in `src/params.f90`
 * Need re-compilation after changing parameters
