@@ -15,7 +15,7 @@ Toy models for varioius MCMC methods (MCMC, PT, and HMC).
 
 ## Install
 * Just type `make`
-* Needs `mpig90` that is linked to `gfortran` for PT
+* Needs `mpif90` that is linked to `gfortran` for PT
 
 ## Tuning parameter
 * Can be tweak in `src/params.f90`
