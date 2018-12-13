@@ -1,11 +1,14 @@
 # MCMC_Toy
-Toy models for varioius MCMC methods (MCMC, PT, and HMC).
+Toy models for varioius MCMC methods, standard Markov-chain Mote Carlo (MCMC), Parallel tempering (PT), and Hamiltonian Monre Calro (HMC). Each progaram draws samples in accordance with a certain probability distribution p(x,y) expressed as below:
+
+
+
 
 ## MCMC
 * command: `bin/mcmc_toy`
 * output: `mcmc.out`
 
-## Parallel Tempering
+## Parallel Temperingj8bfu
 * command: `mpirun -np 20 bin/pt_toy`
 * output: `pt.out`
 
