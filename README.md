@@ -8,7 +8,7 @@ Toy models for varioius MCMC methods, standard Markov-chain Mote Carlo (MCMC), P
 * command: `bin/mcmc_toy`
 * output: `mcmc.out`
 
-## Parallel Temperingj8bfu
+## Parallel Tempering
 * command: `mpirun -np 20 bin/pt_toy`
 * output: `pt.out`
 
